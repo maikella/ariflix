@@ -1,0 +1,217 @@
+/*váriavel CSS*/
+
+:root{
+
+    --red: #c70039;
+    --blackover: #060606;
+    --black: #141414;
+    --blackG: #141414dc;
+    --white: #AAA;
+    --white2: rgba(255, 255, 255, 0.842);
+
+    --roboto: 'Roboto', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: var(--roboto);
+}
+
+body{
+
+    background-color: var(--black);
+    color: var(--white2);
+    
+}
+
+header .logo {
+    
+    margin-right: 6%;
+    color: var(--red);
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+
+}
+
+
+header{
+   
+    padding-top: 10px;
+    padding: 10px;
+    background-color: var(--blackover);
+
+}
+
+header nav a{
+    
+    color: var(--white2);
+    text-decoration: none;
+    margin-right: 10px;
+
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+header .nav{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a:hover {
+
+    color: var(--white);
+
+}
+
+.movie{
+
+    font-size: 25px;
+  
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url('/assets/img/backImage.webp');
+    
+    height: 617px;
+    background-size: cover;
+
+
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.movie .sinopse{
+
+    margin-bottom: 30px;
+ 
+}
+
+.titulo{
+
+    margin-bottom: 10px;
+    font-size: 280%; 
+}
+
+.butao{
+    
+
+    border: none;
+
+  
+    background-color: rgba(0, 0, 0, .50);
+    color: var(--white2);
+
+    padding: 15px 28px ;
+    margin-right: 10px;
+
+    border-radius: 5px;
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: .4s ease all;
+    
+}
+
+.butao3:hover{
+
+    background: var(--red);
+    color: var(--white2);
+
+}
+
+
+.butao2:hover{
+
+    background-color: rgba(255, 255, 255, 0.726);
+    
+}
+
+
+.butao i{
+
+    margin-right: 8px;
+}
+
+.nav{
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.movie p{
+
+    width: 43%;
+    
+}
+
+.butao2{
+
+    background-color:  hsl(0, 0%, 100%);
+    color:#141414;
+}
+
+.butao3{
+
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+
+.item{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.carrosel-movies{
+
+    margin-top: 40px;
+}
+
+
+.carrosel-movies{
+
+    margin-left: 40px;
+  
+}
+.series{
+
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+button .poha{
+
+    color: var(--black);
+}
+
+footer{
+
+    background-color: var(--blackover);
+    color: var(--white2);
+    
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-size: 11px;
+    font-family: arial;
+    color: rgba(170, 170, 170, 0.5);
+   
+    letter-spacing: 2px;
+
+}
+.box-imag{
+
+    border-radius: 5px;
+
+}

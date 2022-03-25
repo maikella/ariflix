@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:768px){
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.butao{
+
+    margin-top: 10px;
+    margin:0;
+    margin-bottom:15px;
+
+    
+    
+}
+.carrosel-movies{
+
+    margin-right: 40px
+    }
+   
+}
+
+@media screen and (max-width:768px){
+
+.movie{
+
+    background-image: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url('/assets/img/backImage750.webp');
+
+}
+.movie p{
+
+    width: 95%;
+    font-size: 70%;
+    margin-top: 6%;
+
+}
+.titulo{ 
+    
+    font-size: 190%;
+    
+}
+}
